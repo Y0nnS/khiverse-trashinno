@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { ThemeProvider } from 'next-themes';
 import { Poppins } from 'next/font/google';
-import { Toaster } from 'react-hot-toast';
 import Footer from '../components/layout/footer';
 import Navbar from '../components/layout/navbar';
 import '../styles/globals.css';
@@ -32,7 +31,6 @@ export default function RootLayout({
             <Navbar />
             {children}
             <Footer />
-            <Toaster position="top-center" />
           </ThemeProvider>
       </body>
     </html>

@@ -20,7 +20,6 @@ Trashinno adalah website informatif yang menyediakan solusi untuk meningkatkan p
 - **Interface Responsif**: Tampilan yang mobile-friendly dan mudah digunakan di berbagai perangkat
 - **Animasi Interaktif**: Pengalaman pengguna yang menarik dengan animasi Framer Motion
 - **Desain Modern**: Antarmuka yang clean dan intuitif dengan Tailwind CSS
-- **Autentikasi Pengguna**: Sistem login menggunakan Supabase untuk fitur personalisasi
 
 Website ini dibangun menggunakan teknologi modern seperti Next.js 15, React 19, TypeScript, Tailwind CSS, dan Supabase untuk memberikan pengalaman pengguna yang optimal dan performa yang cepat.
 
