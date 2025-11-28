@@ -1,7 +1,7 @@
 'use client';
 
 import { AnimatePresence, motion } from 'framer-motion';
-import { BrainCircuit, Cpu, Leaf, Monitor } from 'lucide-react';
+import { BarChart3, BrainCircuit, Cpu, Leaf, Monitor, Plug, Recycle, Sparkles } from 'lucide-react';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -36,25 +36,25 @@ export default function TentangProject() {
     {
       title: 'Pasang Perangkat',
       description: 'Dapatkan perangkat IoT Trashinno untuk memilah sampah secara otomatis di rumah atau bisnis Anda',
-      icon: '📱',
+      icon: <Plug className="w-7 h-7" />,
       color: 'bg-green-100 text-green-600'
     },
     {
       title: 'Mulai Memilah',
       description: 'Biarkan sensor cerdas kami mengidentifikasi dan memilah sampah dengan akurasi tinggi',
-      icon: '🤖',
+      icon: <Recycle className="w-7 h-7" />,
       color: 'bg-blue-100 text-blue-600'
     },
     {
       title: 'Pantau Data',
       description: 'Akses laporan real-time melalui aplikasi untuk melihat pola dan volume sampah Anda',
-      icon: '📊',
+      icon: <BarChart3 className="w-7 h-7" />,
       color: 'bg-purple-100 text-purple-600'
     },
     {
       title: 'Edukasi & Kontribusi',
       description: 'Dapatkan tips edukasi dan lihat dampak positif Anda terhadap lingkungan',
-      icon: '🌱',
+      icon: <Sparkles className="w-7 h-7" />,
       color: 'bg-teal-100 text-teal-600'
     }
   ];
@@ -336,7 +336,7 @@ export default function TentangProject() {
                   <Leaf className="w-16 h-16 text-green-500 rotate-45" />
                 </div>
 
-                <div className={`w-16 h-16 rounded-full ${step.color} flex items-center justify-center text-2xl mb-5`}>
+                <div className={`w-16 h-16 rounded-full ${step.color} flex items-center justify-center mb-5`}>
                   {step.icon}
                 </div>
                 <div className="text-gray-500 font-mono mb-2">0{index + 1}</div>
@@ -381,7 +381,6 @@ export default function TentangProject() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="border border-gray-200 rounded-xl overflow-hidden">
                 <motion.div
-                  whileHover={{ backgroundColor: '#f9fafb' }}
                   className="group"
                   onClick={() => setExpandedFaq(expandedFaq === i ? null : i)}>
                   <div className="flex justify-between items-center p-6 cursor-pointer">

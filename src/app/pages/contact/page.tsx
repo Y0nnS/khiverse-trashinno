@@ -142,7 +142,7 @@ export default function Kontak() {
                     {
                       icon: <MapPin className="w-6 h-6 text-green-500" />,
                       title: "Kantor",
-                      content: "Jl. Lingkungan Hijau No. 123, Kota Berkelanjutan, Indonesia",
+                      content: "Jl. Pahlawan No. 123, Kota Surabaya, Indonesia",
                       subtitle: "Kunjungi kami dengan janji"
                     }
                   ].map((item, i) => (
@@ -151,7 +151,6 @@ export default function Kontak() {
                       initial={{ opacity: 0, x: -20 }}
                       whileInView={{ opacity: 1, x: 0 }}
                       transition={{ delay: i * 0.1 + 0.2 }}
-                      whileHover={{ x: 5 }}
                       className="flex gap-4 items-start">
                       <div className="p-2 bg-green-50 rounded-lg">
                         {item.icon}

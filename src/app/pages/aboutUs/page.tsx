@@ -110,7 +110,22 @@ export default function TentangKami() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
             className="mb-20 cursor-pointer" >
-            <h2 className="text-lg sm:text-4xl font-bold text-gray-900 text-center mb-4">Solusi Komprehensif Kami</h2>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="text-lg sm:text-4xl font-bold text-gray-900 text-center mb-4">
+              Solusi Komprehensif Kami
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="text-gray-600 max-w-2xl text-sm sm:text-base mx-auto text-center mb-12">
+              Kami menghadirkan inovasi teknologi yang terintegrasi untuk memudahkan pengelolaan sampah dan meningkatkan kesadaran masyarakat akan pentingnya lingkungan bersih.
+            </motion.p>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
               {[
@@ -201,7 +216,22 @@ export default function TentangKami() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
             className="mb-20 cursor-pointer">
-            <h2 className="text-xl sm:text-4xl font-bold text-gray-900 text-center mb-4">Dampak Positif Kami</h2>
+            <motion.h2
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+              viewport={{ once: true }}
+              className="text-xl sm:text-4xl font-bold text-gray-900 text-center mb-4">
+              Dampak Positif Kami
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              viewport={{ once: true }}
+              className="text-gray-600 max-w-2xl text-sm sm:text-base mx-auto text-center mb-12">
+              Melalui solusi yang kami tawarkan, Trashinno berkomitmen memberikan dampak nyata di berbagai aspek kehidupan untuk masa depan yang lebih berkelanjutan.
+            </motion.p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {[
