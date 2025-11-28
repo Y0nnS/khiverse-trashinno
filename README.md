@@ -10,20 +10,19 @@
 
 **Trashinno - Smart Waste Management System**
 
-Platform manajemen sampah pintar yang memanfaatkan teknologi IOT untuk mengoptimalkan pengumpulan sampah, daur ulang, dan keberlanjutan lingkungan.
+Platform informasi dan edukasi tentang pengelolaan sampah yang memanfaatkan teknologi web modern untuk meningkatkan kesadaran masyarakat tentang pengelolaan sampah dan keberlanjutan lingkungan.
 
 ## 📖 Deskripsi Website
 
-Trashinno adalah solusi inovatif untuk mengatasi permasalahan pengelolaan sampah di lingkungan perkotaan dan perumahan. Website ini menyediakan sistem yang membantu dalam:
+Trashinno adalah website informatif yang menyediakan solusi untuk meningkatkan pemahaman masyarakat tentang pengelolaan sampah. Website ini menyediakan:
 
-- **Monitoring Sampah Pintar**: Pemantauan real-time kondisi tempat sampah menggunakan sensor IoT
-- **Dashboard Analitik**: Visualisasi data dan statistik pengelolaan sampah secara komprehensif
-- **Penjadwalan Cerdas**: Sistem penjadwalan pengumpulan sampah yang efisien berdasarkan data
-- **Optimasi Daur Ulang**: Tools untuk meningkatkan efektivitas program daur ulang
-- **Interface Responsif**: Tampilan yang mobile-friendly dan mudah digunakan
-- **Sistem Autentikasi**: Keamanan data pengguna dengan sistem autentikasi yang terpercaya
+- **Informasi Komprehensif**: Informasi lengkap tentang permasalahan dan solusi pengelolaan sampah
+- **Interface Responsif**: Tampilan yang mobile-friendly dan mudah digunakan di berbagai perangkat
+- **Animasi Interaktif**: Pengalaman pengguna yang menarik dengan animasi Framer Motion
+- **Desain Modern**: Antarmuka yang clean dan intuitif dengan Tailwind CSS
+- **Autentikasi Pengguna**: Sistem login menggunakan Supabase untuk fitur personalisasi
 
-Website ini dibangun menggunakan teknologi modern seperti Next.js, TypeScript, Tailwind CSS, dan Supabase untuk memberikan pengalaman pengguna yang optimal dan performa yang cepat.
+Website ini dibangun menggunakan teknologi modern seperti Next.js 15, React 19, TypeScript, Tailwind CSS, dan Supabase untuk memberikan pengalaman pengguna yang optimal dan performa yang cepat.
 
 ## 🚀 Cara Instalasi & Menjalankan Project
 

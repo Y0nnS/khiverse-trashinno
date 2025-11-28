@@ -127,28 +127,28 @@ function ImpactStats() {
       label: 'Sampah per tahun',
       desc: 'Jumlah total sampah yang dihasilkan setiap tahun di Indonesia.',
       icon: <Leaf className="w-8 h-8 text-green-600" />,
-      color: 'bg-blue-50'
+      color: 'bg-white'
     },
     {
       value: '60%',
       label: 'Tidak terkelola',
       desc: 'Sebagian besar sampah tidak dikelola dengan baik atau dibuang sembarangan.',
       icon: <Target className="w-8 h-8 text-green-600" />,
-      color: 'bg-purple-50'
+      color: 'bg-white'
     },
     {
       value: '15%',
       label: 'Didaur ulang',
       desc: 'Hanya sebagian kecil sampah yang berhasil didaur ulang secara optimal.',
       icon: <Lightbulb className="w-8 h-8 text-green-600" />,
-      color: 'bg-red-50'
+      color: 'bg-white'
     },
     {
       value: '175.000 ton',
       label: 'Sampah plastik dilaut',
       desc: 'Volume sampah plastik yang mencemari lautan Indonesia setiap tahun.',
       icon: <Sparkles className="w-8 h-8 text-green-600" />,
-      color: 'bg-yellow-50'
+      color: 'bg-white'
     }
   ];
 

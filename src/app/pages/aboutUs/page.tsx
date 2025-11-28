@@ -302,13 +302,13 @@ export default function TentangKami() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center z-9999">
               <Link href="/pages/contact">
-                <button className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-full text-sm sm:text-base shadow transition-colors flex items-center gap-2">
+                <button className="bg-green-600 cursor-pointer hover:bg-green-700 text-white px-8 py-3 rounded-full text-sm sm:text-base shadow transition-colors flex items-center gap-2">
                   Hubungi Kami
                   <ChevronRight className="w-5 h-5" />
                 </button>
               </Link>
               <Link href="/pages/ourSolution">
-                <button className="bg-white hover:bg-gray-50 text-green-700 px-8 py-3 rounded-full text-sm sm:text-base shadow border border-gray-200 transition-colors flex items-center gap-2">
+                <button className="bg-white cursor-pointer hover:bg-gray-50 text-green-700 px-8 py-3 rounded-full text-sm sm:text-base shadow border border-gray-200 transition-colors flex items-center gap-2">
                   Pelajari Solusi
                   <ChevronRight className="w-5 h-5" />
                 </button>

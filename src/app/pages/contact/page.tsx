@@ -334,7 +334,7 @@ export default function Kontak() {
                           Mengirim...
                         </span>
                       ) : (
-                        <span className="flex items-center font-normal text-sm sm:text-base justify-center gap-2">
+                        <span className="flex items-center cursor-pointer font-normal text-sm sm:text-base justify-center gap-2">
                           <Send className="w-5 h-5" />
                           Kirim Pesan
                         </span>

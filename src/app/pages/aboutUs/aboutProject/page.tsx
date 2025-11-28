@@ -81,10 +81,6 @@ export default function TentangProject() {
       question: 'Bagaimana cara perawatan alat ini?',
       answer: 'Perawatan cukup mudah, seperti membersihkan sensor secara rutin dan update perangkat lunak yang akan kami sediakan secara berkala melalui aplikasi pendamping.',
     },
-    {
-      question: 'Apakah ada program edukasi untuk siswa?',
-      answer: 'Ya, kami menyediakan modul edukasi interaktif yang terintegrasi langsung di antarmuka alat, sehingga siswa belajar sambil berinteraksi dengan alat pemilah sampah.',
-    },
   ];
 
   return (
@@ -279,7 +275,7 @@ export default function TentangProject() {
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.3 }}
                 whileHover={{ y: -5 }}
-                className={`${feature.color} p-3 rounded-xl shadow-md border border-gray-100 hover:shadow-lg transition-all relative overflow-hidden`}>
+                className={`${feature.color} p-3 rounded-xl shadow-md border border-gray-200 hover:border-green-300 transition-all hover:shadow-md relative overflow-hidden`}>
                 <div className="absolute -bottom-4 -right-4 opacity-10">
                   <Leaf className="w-16 h-16 text-green-500 rotate-45" />
                 </div>
